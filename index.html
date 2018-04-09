@@ -6,9 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  
+
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
 </head>
@@ -17,7 +20,7 @@
   <div class="container">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Civil Rights Leaders</h1>
+        <h1 class="display-4"> 20th Century Civil Rights Leaders</h1>
         <p class="lead">FUCK THE SYSTEM. PICK ANYTHING YOU FUCKING WANT</p>
       </div>
     </div>
@@ -28,30 +31,32 @@
           <label for="exampleInputPassword1">Search</label>
           <input type="search" class="form-control" id="gifsearch" placeholder="Search">
         </div>
-        <button class="btn btn-primary search" id="search">Submit</button>
+        <button id="search" class="btn btn-success">
+          <i class="fas fa-search"></i>
+          Submit</button>
       </div>
     </div>
     <div class="row mt-4">
       <div class="col-md-4">
-          <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Gif Shortcut!</h5>
-                <div class="form-group" id="buttonArea">
-                </div>
-              </div>      
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gif Shortcut!</h5>
+            <div class="form-group" id="buttonArea">
             </div>
+          </div>
+        </div>
       </div>
       <div class="col-md-8">
-          <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Gifs Go Here!</h5>
-                <div class="container">
-                  <div class="row" id="imageArea">
-                  </div>
-                </div>               
-              </div>      
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gifs Go Here!</h5>
+            <div class="container">
+              <div class="row" id="imageArea">
+              </div>
             </div>
-      </div>      
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

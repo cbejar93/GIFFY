@@ -1,4 +1,10 @@
 .jumbotron{
     background-color: blueviolet;
     color: white;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.container{
+    font-family: 'Roboto Slab', serif;
 }
