@@ -68,7 +68,7 @@ $(document).on("click", ".topicArr", function(event){
             imageDiv.append(imgTag);
             imageDiv.append(rating);
             // Here its being attached to the page
-            $("#imageArea").append(imageDiv);
+            $("#imageArea").prepend(imageDiv);
         }
 
          
