@@ -1,4 +1,4 @@
-var topics= ["Barack Obama", "Martin Luther King Jr", "Nelson Mandela", "Cesar Chavez", "Rosa Parks", "Malcom X","Mahatma Gandhi", ""]
+var topics= ["Barack Obama", "Martin Luther King Jr", "Nelson Mandela", "Cesar Chavez", "Rosa Parks", "Malcom X", "Mahatma Gandhi", "Harvey Milk", "Maya Angelou", "Susan B Anthony"]
 
 // This function creates the original buttons on the page.
 starterButtons(topics);
